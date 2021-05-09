@@ -42,28 +42,15 @@ function draw() {
     cars = new Car(3);
     carGroup1.add(cars.spt);
 
-    if(logGroup1.x<0);
-    {
-    logGroup1.x = 700;
-    }
-
-    if(carGroup1.x<0);
-    {
-    carGroup1.x = 700;
-    }
     
+
+ for(i=1;i<logGroup1.length;i++)
+ { 
+  if(logGroup1[i].x<0)
+  {
+   logGroup1[i].x=width;
   }
-
-  
-  // for(var i = 0; i<40;i++)
-  // {
-    
-  // }
-  // for(var b=1; b<logGroup1.length;b++)
-  // {
-    
-  //   }
-  // }
+ }
   
   
   
