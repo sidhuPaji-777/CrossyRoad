@@ -41,7 +41,7 @@ function draw() {
 
     cars = new Car(3);
     carGroup1.add(cars.spt);
-
+    }
     
 
  for(i=1;i<logGroup1.length;i++)
