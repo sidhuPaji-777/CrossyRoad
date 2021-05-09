@@ -41,16 +41,17 @@ function draw() {
 
     cars = new Car(3);
     carGroup1.add(cars.spt);
-    }
+   
     
-
- for(i=1;i<logGroup1.length;i++)
- { 
-  if(logGroup1[i].x<0)
-  {
-   logGroup1[i].x=width;
   }
- }
+    
+for(i=1;i<logGroup1.length;i++)
+  { 
+    if(logGroup1[i].x<0) 
+    {
+       logGroup1[i].x=width; 
+    } 
+  }
   
   
   
